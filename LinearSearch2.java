@@ -1,3 +1,4 @@
+
 public class LinearSearch {
     public static void main(String[] args) {
         String name = "Akash";
@@ -6,6 +7,8 @@ public class LinearSearch {
 
         
     }
+
+    // for strings
 
     static boolean search(String str , char target){
         if(str.length() == 0){
@@ -20,6 +23,8 @@ public class LinearSearch {
         }
         return false;
     }
+
+    // for array 
 
     //static int linear(int[] arr, int target){
     //    if(arr.length == 0){

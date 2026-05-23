@@ -1,0 +1,9 @@
+static double getAverage(int[] arr) {
+        int sum = 0;
+        for (int i : arr) {
+            sum += i;
+        }
+        int size = arr.length;
+        double avg = (double) sum / size;
+        return avg;
+    }
